@@ -1,0 +1,34 @@
+#da-vinci-title{
+	margin-bottom:5px !important;	
+}
+#da-vinci-alt {
+    color: #303030;
+	font-family:Tahoma, Geneva, sans-serif;
+    display: none;
+    font-size: 13px;
+    margin: 0 0 5px !important;
+}
+.carouselLeft {
+	background: url("images/rotate-left.png") repeat scroll 0 0 transparent;
+    display: none;
+    height: 34px;
+    width: 34px;
+}
+.carouselLeft:hover {
+    background-position: 0 34px;
+    cursor:pointer;
+    height: 34px;
+    width: 34px;
+}
+.carouselRight {
+    background: url("images/rotate-right.png") repeat scroll 0 0 transparent;
+    display: none;
+    height: 34px;
+    width: 34px;
+}
+.carouselRight:hover {
+    background-position: 0 34px;
+    height: 34px;
+	 cursor:pointer;
+    width: 34px;
+}
